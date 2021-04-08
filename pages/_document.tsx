@@ -1,7 +1,13 @@
 import Document, { Html, Head, Main, NextScript } from 'next/document';
 
+/**
+ * This _document file is responsible for the <head></head> tag & Meta tags etc.
+ * This file will in Server only, for example - write a console.log() & check in the Terminal & browser console
+ */
 export default class CustomDocument extends Document {
     render() {
+        console.log('Hello from _document file');
+        
         return (
             <Html>
                 <Head>
