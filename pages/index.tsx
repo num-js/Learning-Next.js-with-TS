@@ -1,3 +1,5 @@
+import style from './index.module.css';
+
 const Home = () => {
     return (
         <>
@@ -5,8 +7,8 @@ const Home = () => {
                 Numan
             </div>
 
-            <div className="">
-                Not Title
+            <div className={style.colorGreen}>
+                this is Green color wirh CSS Module Import
             </div>
         </>
     );
