@@ -1,4 +1,5 @@
 import {Metadata} from "next";
+import Link from "next/link";
 
 export const metadata: Metadata = {
   // title: "page-title - Next.js-14" //title can be a String
@@ -21,7 +22,7 @@ export default function RootLayout({
     <html lang="en">
       <body>
         <header style={{ background: "lightblue", padding: "1rem" }}>
-          Header
+          <Link href="/">Home</Link>
         </header>
         {children}
         <footer style={{ background: "ghostwhite", padding: "1rem" }}>
