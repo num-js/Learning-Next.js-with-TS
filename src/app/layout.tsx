@@ -1,4 +1,5 @@
 import {Metadata} from "next";
+import "./globals.css";
 
 export const metadata: Metadata = {
   // title: "page-title - Next.js-14" //title can be a String
